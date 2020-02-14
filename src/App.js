@@ -11,7 +11,7 @@ class App extends Component {
       },
       {
         id: 2,
-        title: 'Take out yourself',
+        title: 'Take out your doubts',
         completed: false
       },
       {
@@ -23,10 +23,9 @@ class App extends Component {
 
   }
   render() {
-    console.log(this.state.todos)
   return (
     <div className="App">
-      <Todos/>
+      <Todos todos={this.state.todos}/>
     </div>
   );
   }
