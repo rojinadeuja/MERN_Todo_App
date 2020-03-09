@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 class Todos extends Component {
     markComplete = (id) =>{
-        console.log(id);
+    
       }
 
   render(){
